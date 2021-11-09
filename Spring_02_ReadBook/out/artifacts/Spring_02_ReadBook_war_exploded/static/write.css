@@ -1,0 +1,45 @@
+.insert_btn{
+    display:flex;
+}
+
+.insert_btn button{
+    border-radius: 2px;
+    border:none;
+    margin:5px;
+    padding:1rem;
+    outline:none;
+    background-color: cornflowerblue;
+    color:white;
+    width:8vw;
+    cursor:pointer;
+}
+
+form.book_insert{
+    margin:20px;
+    width:80vw;
+}
+
+form.book_insert input, form.book_insert textarea{
+    outline:none;
+    border:1px solid lightgray;
+    border-radius: 2px;
+    padding:1rem;
+    margin:5px;
+}
+
+div.input_1 input {
+    width:35vw;
+}
+
+div.input_2 input:nth-of-type(1){
+    width:35vw;
+}
+
+div.input_2 input{
+    width:15vw;
+}
+
+div.input_3 {
+    display:flex;
+    flex-direction: column;
+}
