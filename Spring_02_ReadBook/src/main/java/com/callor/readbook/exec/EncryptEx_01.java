@@ -22,5 +22,14 @@ public class EncryptEx_01 {
         String planText = pbe.decrypt(encText);
         System.out.println(planText);
 
+        String username = "root";
+        String password = "!Biz12341234";
+        // 암호화
+        String encUserName = pbe.encrypt(username);
+        String encPassword = pbe.encrypt(password);
+
+        System.out.printf("user name: %s\n", encUserName);
+        System.out.printf("password: %s\n", encPassword);
+
     }
 }

@@ -13,13 +13,13 @@ public class HomeController {
 
     Logger logger = LoggerFactory.getLogger(HomeController.class);
 
-    @Value("${username}")
+    // @Value("${props.username}")
     private String userName;
-    @Value("${password}")
+    // @Value("${props.password}")
     private String password;
-    @Value("${driverClassName}")
+    // @Value("${props.driver}")
     private String className;
-    @Value("${url}")
+    // @Value("${props.url}")
     private String url;
 
     @ResponseBody
@@ -28,7 +28,7 @@ public class HomeController {
 
         logger.debug("여기는 홈 입니다");
 
-        return "home/home";
+        return "";
     }
 
     @RequestMapping(value="/book", method = RequestMethod.GET)
